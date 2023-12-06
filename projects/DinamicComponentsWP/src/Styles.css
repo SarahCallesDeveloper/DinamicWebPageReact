@@ -1,0 +1,27 @@
+.navbar-nav .nav-item {
+    padding: 0.5rem 1rem; /* Set your desired padding for nav-item */
+  }
+  
+  /* Override nav-link padding to match nav-item */
+  .navbar-nav .nav-item .nav-link {
+    padding: inherit;
+    color: inherit;
+    background-color: unset;
+    /* Add any other styles you want to reset */
+  }
+  
+  /* Reset hover effect for nav-link */
+  .navbar-nav .nav-item .nav-link:hover {
+    color: inherit;
+    background-color: unset;
+    /* Add any other hover styles you want to reset */
+  }
+
+.nav-link {
+    padding: unset;
+    color: unset;
+    background-color: unset;
+    /* Add any other styles you want to reset */
+  }
+
+  
